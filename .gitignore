@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Data directory (large files, can be re-downloaded)
+data/
+
+# Model files
+
+# Model files
+*.npz
+*.pkl
+*.h5
+
+# Images (generated)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*_log.txt
+*_stdout.txt

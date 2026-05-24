@@ -1,0 +1,181 @@
+{
+  "timestamp": "2026-05-24T19:30:12.272010",
+  "n_datasets": 3,
+  "n_methods": 5,
+  "methods": [
+    "Ours",
+    "DANN",
+    "CDAN",
+    "MAML",
+    "Reptile"
+  ],
+  "results": [
+    {
+      "method": "Ours",
+      "mean_src": 0.8321453792774645,
+      "mean_tgt": 0.8426206555155759,
+      "gap": 0.010475276238111397,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "SECOM",
+      "target_dataset": "Air_Quality"
+    },
+    {
+      "method": "DANN",
+      "mean_src": 0.5850789374547876,
+      "mean_tgt": 0.39098110757762977,
+      "gap": 0.1940978298771578,
+      "rating": "良好 (差距 < 0.3)",
+      "source_dataset": "SECOM",
+      "target_dataset": "Air_Quality"
+    },
+    {
+      "method": "CDAN",
+      "mean_src": 0.4777690416583633,
+      "mean_tgt": 0.49919643844171774,
+      "gap": 0.021427396783354424,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "SECOM",
+      "target_dataset": "Air_Quality"
+    },
+    {
+      "method": "MAML",
+      "mean_src": 0.5422866544089361,
+      "mean_tgt": 0.5420538596160079,
+      "gap": 0.0002327947929281482,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "SECOM",
+      "target_dataset": "Air_Quality"
+    },
+    {
+      "method": "Reptile",
+      "mean_src": 0.3951746301994842,
+      "mean_tgt": 0.5188590820785051,
+      "gap": 0.12368445187902088,
+      "rating": "良好 (差距 < 0.3)",
+      "source_dataset": "SECOM",
+      "target_dataset": "Air_Quality"
+    },
+    {
+      "method": "Ours",
+      "mean_src": 0.8205752109688648,
+      "mean_tgt": 0.8329860669209811,
+      "gap": 0.012410855952116329,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "SECOM",
+      "target_dataset": "iris"
+    },
+    {
+      "method": "DANN",
+      "mean_src": 0.5442355875798569,
+      "mean_tgt": 0.4710839252054283,
+      "gap": 0.0731516623744286,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "SECOM",
+      "target_dataset": "iris"
+    },
+    {
+      "method": "CDAN",
+      "mean_src": 0.540618438662974,
+      "mean_tgt": 0.2815639111809745,
+      "gap": 0.2590545274819995,
+      "rating": "良好 (差距 < 0.3)",
+      "source_dataset": "SECOM",
+      "target_dataset": "iris"
+    },
+    {
+      "method": "MAML",
+      "mean_src": 0.5621597112483483,
+      "mean_tgt": 0.5915545094437737,
+      "gap": 0.029394798195425453,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "SECOM",
+      "target_dataset": "iris"
+    },
+    {
+      "method": "Reptile",
+      "mean_src": 0.521872416696131,
+      "mean_tgt": 0.42923020156208425,
+      "gap": 0.0926422151340468,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "SECOM",
+      "target_dataset": "iris"
+    },
+    {
+      "method": "Ours",
+      "mean_src": 0.8293740673797225,
+      "mean_tgt": 0.8323107072988465,
+      "gap": 0.0029366399191239623,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "Air_Quality",
+      "target_dataset": "iris"
+    },
+    {
+      "method": "DANN",
+      "mean_src": 0.43155922152941084,
+      "mean_tgt": 0.4349188916148151,
+      "gap": 0.003359670085404276,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "Air_Quality",
+      "target_dataset": "iris"
+    },
+    {
+      "method": "CDAN",
+      "mean_src": 0.46436665408837907,
+      "mean_tgt": 0.44332659624020465,
+      "gap": 0.02104005784817442,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "Air_Quality",
+      "target_dataset": "iris"
+    },
+    {
+      "method": "MAML",
+      "mean_src": 0.5867131687919201,
+      "mean_tgt": 0.5057290870334987,
+      "gap": 0.08098408175842142,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "Air_Quality",
+      "target_dataset": "iris"
+    },
+    {
+      "method": "Reptile",
+      "mean_src": 0.46442573032425133,
+      "mean_tgt": 0.5255291523614785,
+      "gap": 0.06110342203722713,
+      "rating": "优秀 (差距 < 0.1)",
+      "source_dataset": "Air_Quality",
+      "target_dataset": "iris"
+    }
+  ],
+  "summary": {
+    "Ours": {
+      "mean_gap": 0.00860759070311723,
+      "std_gap": 0.004087083663051381,
+      "min_gap": 0.0029366399191239623,
+      "max_gap": 0.012410855952116329
+    },
+    "DANN": {
+      "mean_gap": 0.09020305411233022,
+      "std_gap": 0.07879646299310505,
+      "min_gap": 0.003359670085404276,
+      "max_gap": 0.1940978298771578
+    },
+    "CDAN": {
+      "mean_gap": 0.10050732737117611,
+      "std_gap": 0.112109911857661,
+      "min_gap": 0.02104005784817442,
+      "max_gap": 0.2590545274819995
+    },
+    "MAML": {
+      "mean_gap": 0.03687055824892501,
+      "std_gap": 0.033387700608946656,
+      "min_gap": 0.0002327947929281482,
+      "max_gap": 0.08098408175842142
+    },
+    "Reptile": {
+      "mean_gap": 0.09247669635009827,
+      "std_gap": 0.025548866528879517,
+      "min_gap": 0.06110342203722713,
+      "max_gap": 0.12368445187902088
+    }
+  }
+}
