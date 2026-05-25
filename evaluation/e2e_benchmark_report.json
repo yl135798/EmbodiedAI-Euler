@@ -1,0 +1,269 @@
+{
+  "benchmark": "End-to-End Cross-Domain Generalization",
+  "n_datasets": 7,
+  "zero_shot_methods": 4,
+  "few_shot_methods": 2,
+  "n_results": 252,
+  "zero_shot_ranking": [
+    [
+      "EulerCognitive (Ours)",
+      {
+        "avg_gap": 0.26228955437425183,
+        "avg_tgt_auc": 0.4917561150736187,
+        "cross_domain_gap": 0.2711803652906799,
+        "same_domain_gap": 0.20894468887568282,
+        "n_runs": 42,
+        "best_gap": 0.020921190523223554,
+        "worst_gap": 0.5539141721031127
+      }
+    ],
+    [
+      "DANN",
+      {
+        "avg_gap": 0.2959374429293465,
+        "avg_tgt_auc": 0.4639191921022709,
+        "cross_domain_gap": 0.30479723318573887,
+        "same_domain_gap": 0.24277870139099167,
+        "n_runs": 42,
+        "best_gap": 0.011500791493679552,
+        "worst_gap": 0.8282408228757002
+      }
+    ],
+    [
+      "Euler+MMD (Ours)",
+      {
+        "avg_gap": 0.29781343668759536,
+        "avg_tgt_auc": 0.4643335500955955,
+        "cross_domain_gap": 0.29595642084901197,
+        "same_domain_gap": 0.30895553171909557,
+        "n_runs": 42,
+        "best_gap": 0.02528139468630447,
+        "worst_gap": 0.7531132554967505
+      }
+    ],
+    [
+      "CDAN",
+      {
+        "avg_gap": 0.3056168570413589,
+        "avg_tgt_auc": 0.4848932537400329,
+        "cross_domain_gap": 0.3211039459664915,
+        "same_domain_gap": 0.21269432349056347,
+        "n_runs": 42,
+        "best_gap": 0.023344947570893282,
+        "worst_gap": 0.7167945688293249
+      }
+    ]
+  ],
+  "few_shot_ranking": [
+    [
+      "Reptile (10-shot)",
+      {
+        "avg_gap": 0.22919269086838104,
+        "avg_tgt_auc": 0.47489245108143135,
+        "cross_domain_gap": 0.22819281677834174,
+        "same_domain_gap": 0.2351919354086166,
+        "n_runs": 42,
+        "best_gap": 0.003925080193790231,
+        "worst_gap": 0.7464637265491478
+      }
+    ],
+    [
+      "MAML (10-shot)",
+      {
+        "avg_gap": 0.283735336691196,
+        "avg_tgt_auc": 0.4816317141633917,
+        "cross_domain_gap": 0.2945267855797815,
+        "same_domain_gap": 0.21898664335968343,
+        "n_runs": 42,
+        "best_gap": 0.01660190257992622,
+        "worst_gap": 0.7606712630954939
+      }
+    ]
+  ],
+  "overall": {
+    "EulerCognitive (Ours)": {
+      "avg_gap": 0.26228955437425183,
+      "avg_tgt_auc": 0.4917561150736187,
+      "cross_domain_gap": 0.2711803652906799,
+      "same_domain_gap": 0.20894468887568282,
+      "n_runs": 42,
+      "best_gap": 0.020921190523223554,
+      "worst_gap": 0.5539141721031127
+    },
+    "Euler+MMD (Ours)": {
+      "avg_gap": 0.29781343668759536,
+      "avg_tgt_auc": 0.4643335500955955,
+      "cross_domain_gap": 0.29595642084901197,
+      "same_domain_gap": 0.30895553171909557,
+      "n_runs": 42,
+      "best_gap": 0.02528139468630447,
+      "worst_gap": 0.7531132554967505
+    },
+    "CDAN": {
+      "avg_gap": 0.3056168570413589,
+      "avg_tgt_auc": 0.4848932537400329,
+      "cross_domain_gap": 0.3211039459664915,
+      "same_domain_gap": 0.21269432349056347,
+      "n_runs": 42,
+      "best_gap": 0.023344947570893282,
+      "worst_gap": 0.7167945688293249
+    },
+    "DANN": {
+      "avg_gap": 0.2959374429293465,
+      "avg_tgt_auc": 0.4639191921022709,
+      "cross_domain_gap": 0.30479723318573887,
+      "same_domain_gap": 0.24277870139099167,
+      "n_runs": 42,
+      "best_gap": 0.011500791493679552,
+      "worst_gap": 0.8282408228757002
+    },
+    "MAML (10-shot)": {
+      "avg_gap": 0.283735336691196,
+      "avg_tgt_auc": 0.4816317141633917,
+      "cross_domain_gap": 0.2945267855797815,
+      "same_domain_gap": 0.21898664335968343,
+      "n_runs": 42,
+      "best_gap": 0.01660190257992622,
+      "worst_gap": 0.7606712630954939
+    },
+    "Reptile (10-shot)": {
+      "avg_gap": 0.22919269086838104,
+      "avg_tgt_auc": 0.47489245108143135,
+      "cross_domain_gap": 0.22819281677834174,
+      "same_domain_gap": 0.2351919354086166,
+      "n_runs": 42,
+      "best_gap": 0.003925080193790231,
+      "worst_gap": 0.7464637265491478
+    }
+  },
+  "cross_domain": {
+    "EulerCognitive (Ours)": 0.2711803652906799,
+    "Euler+MMD (Ours)": 0.29595642084901197,
+    "CDAN": 0.3211039459664915,
+    "DANN": 0.30479723318573887,
+    "MAML (10-shot)": 0.2945267855797815,
+    "Reptile (10-shot)": 0.22819281677834174
+  },
+  "domain_pairs": {
+    "industrial->industrial": {
+      "EulerCognitive (Ours)": 0.13404091416992286,
+      "Euler+MMD (Ours)": 0.12463442083107365,
+      "DANN": 0.07482792544265632,
+      "CDAN": 0.0904272966365077,
+      "MAML (10-shot)": 0.10521270359191084,
+      "Reptile (10-shot)": 0.056668271961861805
+    },
+    "industrial->environmental": {
+      "EulerCognitive (Ours)": 0.12836948234014445,
+      "Euler+MMD (Ours)": 0.2408946339175841,
+      "DANN": 0.16554740393512302,
+      "CDAN": 0.18671762352224847,
+      "MAML (10-shot)": 0.1140424886487487,
+      "Reptile (10-shot)": 0.09384856183594192
+    },
+    "industrial->biological": {
+      "EulerCognitive (Ours)": 0.33418795506401805,
+      "Euler+MMD (Ours)": 0.12015299567605825,
+      "DANN": 0.2657256281731065,
+      "CDAN": 0.348419407436229,
+      "MAML (10-shot)": 0.3112034893628476,
+      "Reptile (10-shot)": 0.3289699165418556
+    },
+    "industrial->digital": {
+      "EulerCognitive (Ours)": 0.17630083135669192,
+      "Euler+MMD (Ours)": 0.11507735382084952,
+      "DANN": 0.2932897974155644,
+      "CDAN": 0.10084805684160247,
+      "MAML (10-shot)": 0.13165780215273626,
+      "Reptile (10-shot)": 0.13065369411641567
+    },
+    "environmental->industrial": {
+      "EulerCognitive (Ours)": 0.1938911248900373,
+      "Euler+MMD (Ours)": 0.23446661342611022,
+      "DANN": 0.1858191003315758,
+      "CDAN": 0.19793207745925478,
+      "MAML (10-shot)": 0.1941856142560775,
+      "Reptile (10-shot)": 0.11336452782519085
+    },
+    "environmental->environmental": {
+      "EulerCognitive (Ours)": 0.30500307924240383,
+      "Euler+MMD (Ours)": 0.15398029498665572,
+      "DANN": 0.26184151225853836,
+      "CDAN": 0.26848006668157276,
+      "MAML (10-shot)": 0.1556799185324162,
+      "Reptile (10-shot)": 0.12577691985102438
+    },
+    "environmental->biological": {
+      "EulerCognitive (Ours)": 0.33300052896902566,
+      "Euler+MMD (Ours)": 0.5567927043058926,
+      "DANN": 0.4623918697590199,
+      "CDAN": 0.4570590752798266,
+      "MAML (10-shot)": 0.4279207471375451,
+      "Reptile (10-shot)": 0.2707533264623706
+    },
+    "environmental->digital": {
+      "EulerCognitive (Ours)": 0.219187774152647,
+      "Euler+MMD (Ours)": 0.19842670984488323,
+      "DANN": 0.19449651580223348,
+      "CDAN": 0.1676422404603114,
+      "MAML (10-shot)": 0.20844623356525732,
+      "Reptile (10-shot)": 0.41186304439102617
+    },
+    "biological->industrial": {
+      "EulerCognitive (Ours)": 0.34337157842198196,
+      "Euler+MMD (Ours)": 0.14541581172995693,
+      "DANN": 0.3440861610089359,
+      "CDAN": 0.4441457941865329,
+      "MAML (10-shot)": 0.3594879840852253,
+      "Reptile (10-shot)": 0.1849497959426607
+    },
+    "biological->environmental": {
+      "EulerCognitive (Ours)": 0.3248006796944898,
+      "Euler+MMD (Ours)": 0.43255148362888873,
+      "DANN": 0.4224143836860339,
+      "CDAN": 0.35785165693917775,
+      "MAML (10-shot)": 0.37256892822271126,
+      "Reptile (10-shot)": 0.32363835457045237
+    },
+    "biological->biological": {
+      "EulerCognitive (Ours)": 0.18779007321472174,
+      "Euler+MMD (Ours)": 0.6482518793395573,
+      "DANN": 0.3916666664717804,
+      "CDAN": 0.27917560715360995,
+      "MAML (10-shot)": 0.3960673079547232,
+      "Reptile (10-shot)": 0.5231306144129636
+    },
+    "biological->digital": {
+      "EulerCognitive (Ours)": 0.25897042146765537,
+      "Euler+MMD (Ours)": 0.5277318413507041,
+      "DANN": 0.4320698143853093,
+      "CDAN": 0.46502459468201884,
+      "MAML (10-shot)": 0.3431928287964509,
+      "Reptile (10-shot)": 0.3680758242886505
+    },
+    "digital->industrial": {
+      "EulerCognitive (Ours)": 0.2909036391801314,
+      "Euler+MMD (Ours)": 0.2649973134176705,
+      "DANN": 0.25467006150683835,
+      "CDAN": 0.3188808143593177,
+      "MAML (10-shot)": 0.26529731033433146,
+      "Reptile (10-shot)": 0.11413869735896948
+    },
+    "digital->environmental": {
+      "EulerCognitive (Ours)": 0.20509850793706147,
+      "Euler+MMD (Ours)": 0.224274673975966,
+      "DANN": 0.03919203015702921,
+      "CDAN": 0.15860172168580827,
+      "MAML (10-shot)": 0.1427207064427825,
+      "Reptile (10-shot)": 0.2505091357447622
+    },
+    "digital->biological": {
+      "EulerCognitive (Ours)": 0.4155427023786578,
+      "Euler+MMD (Ours)": 0.5361591975031607,
+      "DANN": 0.5806628842887362,
+      "CDAN": 0.5846223297212482,
+      "MAML (10-shot)": 0.6513487557181973,
+      "Reptile (10-shot)": 0.20118133975338318
+    }
+  }
+}
